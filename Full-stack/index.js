@@ -22,7 +22,7 @@ app.use(express.urlencoded({extended:true}))
 const port = process.env.PORT || 4000;
 
 app.get("/", (req, res) => {
-  res.send("Hello!");
+  res.send("Hello! req is ok ");
 });
 
 app.get("/chesta", (req, res) => {
